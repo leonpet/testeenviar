@@ -1,0 +1,26 @@
+para modificar arquivos:
+
+git add .
+git commit -m "16/02/ 19:49"
+git push
+
+-----------------------------------------------------------
+
+Para excluir o arquivo novo 1.html do repositório Git e do GitHub:
+
+# 1. Exclua o arquivo do Git e do disco
+git rm "novo 1.html"
+
+# 2. Faça o commit da exclusão
+git commit -m "Remove arquivo novo 1.html"
+
+# 3. Envie para o GitHub
+git push
+
+----------------------------------------------------------------
+
+Se você quiser apenas remover do Git mas manter o arquivo localmente:
+
+git rm --cached "novo 1.html"
+git commit -m "Remove novo 1.html do repositório"
+git push
